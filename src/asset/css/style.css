@@ -94,10 +94,12 @@ a.bg-primary:focus, a.bg-primary:hover {
 }
 
 .bg-success {
-    background-color: #5cb85c !important; }
+    background-color: #5cb85c !important;
+}
 
 a.bg-success:focus, a.bg-success:hover {
-    background-color: #449d44 !important; }
+    background-color: #449d44 !important;
+}
 
 .card {
     position: relative;
@@ -131,4 +133,40 @@ a.bg-success:focus, a.bg-success:hover {
 .card-success .card-header,
 .card-success .card-footer {
     background-color: transparent;
+}
+
+.card-warning {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.card-warning .card-header,
+.card-warning .card-footer {
+    background-color: transparent;
+}
+
+.card-danger {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.card-danger .card-header,
+.card-danger .card-footer {
+    background-color: transparent;
+}
+
+.bg-warning {
+    background-color: #f0ad4e !important;
+}
+
+a.bg-warning:focus, a.bg-warning:hover {
+    background-color: #ec971f !important;
+}
+
+.bg-danger {
+    background-color: #d9534f !important;
+}
+
+a.bg-danger:focus, a.bg-danger:hover {
+    background-color: #c9302c !important;
 }

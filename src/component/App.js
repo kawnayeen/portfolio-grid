@@ -4,13 +4,15 @@ import Header from "./header";
 import Footer from "./footer";
 import Home from "./content/home";
 import Resume from "./content/resume";
+import Work from "./content/work";
 
 const App = () => {
     return (
         <Container>
             <Header/>
             {/*<Home/>*/}
-            <Resume/>
+            {/*<Resume/>*/}
+            <Work/>
             <Footer/>
         </Container>
     );
