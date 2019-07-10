@@ -84,3 +84,35 @@
 .bg-inverse {
     background-color: #292b2c !important;
 }
+
+.bg-primary {
+    background-color: #0275d8 !important;
+}
+
+a.bg-primary:focus, a.bg-primary:hover {
+    background-color: #025aa5 !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-block {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-primary {
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.card-primary .card-header,
+.card-primary .card-footer {
+    background-color: transparent;
+}
