@@ -5,6 +5,7 @@ import Footer from "./footer";
 import Home from "./content/home";
 import Resume from "./content/resume";
 import Work from "./content/work";
+import Contact from "./content/contact";
 
 const App = () => {
     return (
@@ -12,7 +13,8 @@ const App = () => {
             <Header/>
             {/*<Home/>*/}
             {/*<Resume/>*/}
-            <Work/>
+            {/*<Work/>*/}
+            <Contact/>
             <Footer/>
         </Container>
     );
