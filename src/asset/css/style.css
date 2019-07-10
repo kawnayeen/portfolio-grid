@@ -93,6 +93,12 @@ a.bg-primary:focus, a.bg-primary:hover {
     background-color: #025aa5 !important;
 }
 
+.bg-success {
+    background-color: #5cb85c !important; }
+
+a.bg-success:focus, a.bg-success:hover {
+    background-color: #449d44 !important; }
+
 .card {
     position: relative;
     display: flex;
@@ -114,5 +120,15 @@ a.bg-primary:focus, a.bg-primary:hover {
 
 .card-primary .card-header,
 .card-primary .card-footer {
+    background-color: transparent;
+}
+
+.card-success {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.card-success .card-header,
+.card-success .card-footer {
     background-color: transparent;
 }
