@@ -1,4 +1,6 @@
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faUser, faEnvelope, faPencilAlt} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
     return (
@@ -14,16 +16,16 @@ const Contact = () => {
                 <form>
                     <div className="form-group">
                         <div className="input-group input-group-lg">
-              <span className="input-group-addon bg-danger text-white">
-                <i className="fa fa-user"></i>
-              </span>
+                          <span className="input-group-addon bg-danger text-white">
+                            <FontAwesomeIcon icon={faUser}/>
+                          </span>
                             <input type="text" className="form-control bg-inverse text-white" placeholder="Name"/>
                         </div>
                     </div>
                     <div className="form-group">
                         <div className="input-group input-group-lg">
               <span className="input-group-addon bg-danger text-white">
-                <i className="fa fa-envelope"></i>
+                <FontAwesomeIcon icon={faEnvelope}/>
               </span>
                             <input type="email" className="form-control bg-inverse text-white" placeholder="Email"/>
                         </div>
@@ -31,13 +33,14 @@ const Contact = () => {
                     <div className="form-group">
                         <div className="input-group input-group-lg">
               <span className="input-group-addon bg-danger text-white">
-                <i className="fa fa-pencil"></i>
+                <FontAwesomeIcon icon={faPencilAlt}/>
               </span>
                             <textarea rows="5" className="form-control bg-inverse text-white"
                                       placeholder="Message"></textarea>
                         </div>
                     </div>
-                    <input type="submit" className="btn bg-danger btn-block btn-lg" value="Submit" style={{color:'white'}}/>
+                    <input type="submit" className="btn bg-danger btn-block btn-lg" value="Submit"
+                           style={{color: 'white'}}/>
                 </form>
             </div>
         </div>
