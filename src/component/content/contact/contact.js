@@ -1,5 +1,4 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome/index";
 import {faUser, faEnvelope, faPencilAlt} from "@fortawesome/free-solid-svg-icons/index";
 import ContactFormInput from "./contact.form.input";
 import ContactFormTextArea from "./contact.form.textarea";

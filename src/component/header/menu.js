@@ -5,10 +5,10 @@ import {faEnvelope, faFolderOpen, faGraduationCap, faHome} from "@fortawesome/fr
 const Menu = () => {
     return (
         <div className="d-flex flex-row text-white align-items-stretch text-center">
-            <MenuItem name="Home" backgroundColor="bg-primary" icon={faHome}/>
-            <MenuItem name="Resume" backgroundColor="bg-success" icon={faGraduationCap}/>
-            <MenuItem name="Work" backgroundColor="bg-warning" icon={faFolderOpen}/>
-            <MenuItem name="Contact" backgroundColor="bg-danger" icon={faEnvelope}/>
+            <MenuItem name="Home" backgroundColor="bg-primary" icon={faHome} path="/"/>
+            <MenuItem name="Resume" backgroundColor="bg-success" icon={faGraduationCap} path="/resume"/>
+            <MenuItem name="Work" backgroundColor="bg-warning" icon={faFolderOpen} path="/work"/>
+            <MenuItem name="Contact" backgroundColor="bg-danger" icon={faEnvelope} path="/contact"/>
         </div>
     );
 };

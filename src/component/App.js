@@ -5,16 +5,19 @@ import Footer from "./footer";
 import Home from "./content/home";
 import Resume from "./content/resume";
 import Work from "./content/work";
+import {BrowserRouter, Route} from 'react-router-dom';
 import Contact from "./content/contact/contact";
 
 const App = () => {
     return (
         <Container>
-            <Header/>
-            {/*<Home/>*/}
-            {/*<Resume/>*/}
-            {/*<Work/>*/}
-            <Contact/>
+            <BrowserRouter>
+                <Header/>
+                <Route path="/" exact component={Home}/>
+                <Route path="/resume" component={Resume}/>
+                <Route path="/work" component={Work}/>
+                <Route path="/contact" component={Contact}/>
+            </BrowserRouter>
             <Footer/>
         </Container>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div id="home">
+        <div id="home" className="collapse show">
             <div className="card card-block card-primary text-white py-5">
                 <h2>Welcome to My Page</h2>
                 <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
