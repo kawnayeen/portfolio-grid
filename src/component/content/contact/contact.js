@@ -1,6 +1,7 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faUser, faEnvelope, faPencilAlt} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome/index";
+import {faUser, faEnvelope, faPencilAlt} from "@fortawesome/free-solid-svg-icons/index";
+import ContactFormItem from "./contact.form.item";
 
 const Contact = () => {
     return (
@@ -14,22 +15,8 @@ const Contact = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
                     repellendus at.</p>
                 <form>
-                    <div className="form-group">
-                        <div className="input-group input-group-lg">
-                          <span className="input-group-addon bg-danger text-white">
-                            <FontAwesomeIcon icon={faUser}/>
-                          </span>
-                            <input type="text" className="form-control bg-inverse text-white" placeholder="Name"/>
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <div className="input-group input-group-lg">
-              <span className="input-group-addon bg-danger text-white">
-                <FontAwesomeIcon icon={faEnvelope}/>
-              </span>
-                            <input type="email" className="form-control bg-inverse text-white" placeholder="Email"/>
-                        </div>
-                    </div>
+                    <ContactFormItem icon={faUser} placeHolder="Name"/>
+                    <ContactFormItem icon={faEnvelope} placeHolder="Email"/>
                     <div className="form-group">
                         <div className="input-group input-group-lg">
               <span className="input-group-addon bg-danger text-white">

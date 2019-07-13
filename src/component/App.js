@@ -5,7 +5,7 @@ import Footer from "./footer";
 import Home from "./content/home";
 import Resume from "./content/resume";
 import Work from "./content/work";
-import Contact from "./content/contact";
+import Contact from "./content/contact/contact";
 
 const App = () => {
     return (
