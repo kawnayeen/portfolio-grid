@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a1438d-5e5b-404f-bf38-4dcc23208b38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/component/content/contact/contact.form.input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/content/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/content/contact/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/content/contact/contact.form.item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/content/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/content/contact/contact.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,23 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.item.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="177">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,10 +43,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/content/contact/form.group.js">
+        <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.textarea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="162">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.input.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.group.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -121,18 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/header/avatar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -175,9 +174,12 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/asset/css/style.css" />
         <option value="$PROJECT_DIR$/src/asset/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/src/component/content/contact/contact.js" />
         <option value="$PROJECT_DIR$/src/component/content/contact/form.group.js" />
+        <option value="$PROJECT_DIR$/src/component/content/contact/contact.form.group.js" />
         <option value="$PROJECT_DIR$/src/component/content/contact/contact.form.item.js" />
+        <option value="$PROJECT_DIR$/src/component/content/contact/contactFormInput.js" />
+        <option value="$PROJECT_DIR$/src/component/content/contact/contact.form.textarea.js" />
+        <option value="$PROJECT_DIR$/src/component/content/contact/contact.js" />
       </list>
     </option>
   </component>
@@ -379,7 +381,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16566000" />
+    <option name="totallyTimeSpent" value="17585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="29" width="1366" height="856" extended-state="0" />
@@ -621,30 +623,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/content/contact/form.group.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.item.js">
+    <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.group.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.form.textarea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/content/contact/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

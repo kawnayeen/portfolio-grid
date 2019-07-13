@@ -1,7 +1,8 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome/index";
 import {faUser, faEnvelope, faPencilAlt} from "@fortawesome/free-solid-svg-icons/index";
-import ContactFormItem from "./contact.form.item";
+import ContactFormInput from "./contact.form.input";
+import ContactFormTextArea from "./contact.form.textarea";
 
 const Contact = () => {
     return (
@@ -15,17 +16,9 @@ const Contact = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
                     repellendus at.</p>
                 <form>
-                    <ContactFormItem icon={faUser} placeHolder="Name"/>
-                    <ContactFormItem icon={faEnvelope} placeHolder="Email"/>
-                    <div className="form-group">
-                        <div className="input-group input-group-lg">
-              <span className="input-group-addon bg-danger text-white">
-                <FontAwesomeIcon icon={faPencilAlt}/>
-              </span>
-                            <textarea rows="5" className="form-control bg-inverse text-white"
-                                      placeholder="Message"></textarea>
-                        </div>
-                    </div>
+                    <ContactFormInput icon={faUser} placeHolder="Name"/>
+                    <ContactFormInput icon={faEnvelope} placeHolder="Email"/>
+                    <ContactFormTextArea icon={faPencilAlt} placeHolder="Message"/>
                     <input type="submit" className="btn bg-danger btn-block btn-lg" value="Submit"
                            style={{color: 'white'}}/>
                 </form>
