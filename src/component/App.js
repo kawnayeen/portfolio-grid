@@ -3,7 +3,7 @@ import {Container} from 'reactstrap';
 import Header from "./header";
 import Footer from "./footer";
 import Home from "./content/home/home";
-import Resume from "./content/resume";
+import Resume from "./content/resume/resume";
 import Work from "./content/work";
 import {BrowserRouter, Route} from 'react-router-dom';
 import Contact from "./content/contact/contact";
