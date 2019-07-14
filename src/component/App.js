@@ -2,7 +2,7 @@ import React from 'react';
 import {Container} from 'reactstrap';
 import Header from "./header";
 import Footer from "./footer";
-import Home from "./content/home";
+import Home from "./content/home/home";
 import Resume from "./content/resume";
 import Work from "./content/work";
 import {BrowserRouter, Route} from 'react-router-dom';
