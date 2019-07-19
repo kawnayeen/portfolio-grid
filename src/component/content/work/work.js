@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from "../../../model/project";
 import ProjectInfoGroup from "./project.info.group";
+import Legend from "../../common/legend";
 
 const Work = () => {
     const detailsBaseUrl = 'https://picsum.photos/1200/768.jpg?image=';
@@ -27,10 +28,10 @@ const Work = () => {
 
     return (
         <div id="work" className="collapse show">
-            <div className="card card-block card-warning text-white py-5">
-                <h2>My Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!</p>
-            </div>
+            <Legend
+                title="My Portfolio"
+                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
+                bgStyle="warning"/>
             <div className="card card-block py-5">
                 <h3>What Have I Built?</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
