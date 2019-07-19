@@ -10,7 +10,11 @@ const Work = () => {
         new Project(`${detailsBaseUrl}255`, `${imageBaseUrl}255`),
         new Project(`${detailsBaseUrl}256`, `${imageBaseUrl}256`),
         new Project(`${detailsBaseUrl}257`, `${imageBaseUrl}257`),
-        new Project(`${detailsBaseUrl}258`, `${imageBaseUrl}258`)
+        new Project(`${detailsBaseUrl}258`, `${imageBaseUrl}258`),
+        new Project(`${detailsBaseUrl}259`, `${imageBaseUrl}259`),
+        new Project(`${detailsBaseUrl}260`, `${imageBaseUrl}260`),
+        new Project(`${detailsBaseUrl}261`, `${imageBaseUrl}261`),
+        new Project(`${detailsBaseUrl}250`, `${imageBaseUrl}250`)
     ];
 
     const getProjectInfos = () => {
@@ -31,29 +35,6 @@ const Work = () => {
                 <h3>What Have I Built?</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
                     repellendus at.</p>
-                {/*<ProjectInfoGroup projects={projects}/>*/}
-                {/*<div className="row no-gutters">*/}
-                {/*    <div className="col-md-3">*/}
-                {/*        <a href="https://picsum.photos/1200/768.jpg?image=259" data-toggle="lightbox">*/}
-                {/*            <img src="https://picsum.photos/600.jpg?image=259" alt="" className="img-fluid"/>*/}
-                {/*        </a>*/}
-                {/*    </div>*/}
-                {/*    <div className="col-md-3">*/}
-                {/*        <a href="https://picsum.photos/1200/768.jpg?image=260" data-toggle="lightbox">*/}
-                {/*            <img src="https://picsum.photos/600.jpg?image=260" alt="" className="img-fluid"/>*/}
-                {/*        </a>*/}
-                {/*    </div>*/}
-                {/*    <div className="col-md-3">*/}
-                {/*        <a href="https://picsum.photos/1200/768.jpg?image=261" data-toggle="lightbox">*/}
-                {/*            <img src="https://picsum.photos/600.jpg?image=261" alt="" className="img-fluid"/>*/}
-                {/*        </a>*/}
-                {/*    </div>*/}
-                {/*    <div className="col-md-3">*/}
-                {/*        <a href="https://picsum.photos/1200/768.jpg?image=250" data-toggle="lightbox">*/}
-                {/*            <img src="https://picsum.photos/600.jpg?image=250" alt="" className="img-fluid"/>*/}
-                {/*        </a>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
                 {getProjectInfos()}
             </div>
         </div>
