@@ -2,6 +2,7 @@ import React from 'react';
 import Experience from "../../../model/experience";
 import JobExperience from "./job.experience";
 import Legend from "../../common/legend";
+import ContentArea from "../../common/content";
 
 const Resume = () => {
     const experiences = [
@@ -38,14 +39,14 @@ const Resume = () => {
                 title="My Resume"
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
                 bgStyle="success"/>
-            <div className="card card-block py-5">
-                <h3>Where Have I Worked?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
-                    repellendus at.</p>
+            <ContentArea
+                title="Where Have I worked"
+                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
+                    repellendus at.">
                 <div className="card-deck">
                     {jobExperiences}
                 </div>
-            </div>
+            </ContentArea>
         </div>
     );
 };

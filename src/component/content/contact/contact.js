@@ -3,6 +3,7 @@ import {faUser, faEnvelope, faPencilAlt} from "@fortawesome/free-solid-svg-icons
 import ContactFormInput from "./contact.form.input";
 import ContactFormTextArea from "./contact.form.textarea";
 import Legend from "../../common/legend";
+import ContentArea from "../../common/content";
 
 const Contact = () => {
     return (
@@ -11,10 +12,11 @@ const Contact = () => {
                 title="Contact"
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
                 bgStyle="danger"/>
-            <div className="card card-block py-5">
-                <h3>Get In Touch</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
-                    repellendus at.</p>
+
+            <ContentArea
+                title="Get In Touch"
+                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
+                    repellendus at.">
                 <form>
                     <ContactFormInput icon={faUser} placeHolder="Name"/>
                     <ContactFormInput icon={faEnvelope} placeHolder="Email"/>
@@ -22,7 +24,7 @@ const Contact = () => {
                     <input type="submit" className="btn bg-danger btn-block btn-lg" value="Submit"
                            style={{color: 'white'}}/>
                 </form>
-            </div>
+            </ContentArea>
         </div>
     );
 };

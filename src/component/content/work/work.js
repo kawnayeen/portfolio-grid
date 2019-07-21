@@ -2,6 +2,7 @@ import React from 'react';
 import Project from "../../../model/project";
 import ProjectInfoGroup from "./project.info.group";
 import Legend from "../../common/legend";
+import ContentArea from "../../common/content";
 
 const Work = () => {
     const detailsBaseUrl = 'https://picsum.photos/1200/768.jpg?image=';
@@ -32,12 +33,13 @@ const Work = () => {
                 title="My Portfolio"
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
                 bgStyle="warning"/>
-            <div className="card card-block py-5">
-                <h3>What Have I Built?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
-                    repellendus at.</p>
+            <ContentArea
+                title="What Have I Built?"
+                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
+                    repellendus at."
+            >
                 {getProjectInfos()}
-            </div>
+            </ContentArea>
         </div>
     );
 };
