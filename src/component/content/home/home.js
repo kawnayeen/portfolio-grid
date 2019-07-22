@@ -2,8 +2,11 @@ import React from 'react';
 import Skill from "./skill";
 import Legend from "../../common/legend";
 import ContentArea from "../../common/content";
+import {useSelector} from 'react-redux';
 
 const Home = () => {
+    const skills = useSelector(state => state.skills);
+    const skillsElement = skills.map(skill => <Skill name={skill.getSubject()} selfMarking={skill.getSelfScore()}/>);
     return (
         <div id="home" className="collapse show">
             <Legend
@@ -14,11 +17,7 @@ const Home = () => {
                          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum libero, maxime
                     neque aliquid expedita nobis odio veniam aperiam nemo.">
                 <hr/>
-                <Skill name="HTML" selfMarking={100}/>
-                <Skill name="CSS" selfMarking={100}/>
-                <Skill name="JavaScript" selfMarking={85}/>
-                <Skill name="PHP" selfMarking={75}/>
-                <Skill name="Python" selfMarking={65}/>
+                {skillsElement}
             </ContentArea>
         </div>
     );
