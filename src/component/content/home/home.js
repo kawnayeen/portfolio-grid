@@ -6,16 +6,16 @@ import {useSelector} from 'react-redux';
 
 const Home = () => {
     const skills = useSelector(state => state.skills);
+    const pageInfo = useSelector(state => state.homePageInfo);
     const skillsElement = skills.map(skill => <Skill name={skill.getSubject()} selfMarking={skill.getSelfScore()}/>);
     return (
         <div id="home" className="collapse show">
             <Legend
-                title="Welcome to My Page"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, recusandae."
-                bgStyle="primary"/>
-            <ContentArea title="My Skills"
-                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum libero, maxime
-                    neque aliquid expedita nobis odio veniam aperiam nemo.">
+                title={pageInfo.navTitle}
+                description={pageInfo.navDescription}
+                bgStyle={pageInfo.navBg}/>
+            <ContentArea title={pageInfo.pageTitle}
+                         description={pageInfo.pageDescription}>
                 <hr/>
                 {skillsElement}
             </ContentArea>
