@@ -4,19 +4,20 @@ import ContactFormInput from "./contact.form.input";
 import ContactFormTextArea from "./contact.form.textarea";
 import Legend from "../../common/legend";
 import ContentArea from "../../common/content";
+import {useSelector} from 'react-redux';
 
 const Contact = () => {
+    const pageInfo = useSelector(state => state.contactPageInfo);
     return (
         <div id="contact" className="collapse show">
             <Legend
-                title="Contact"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
-                bgStyle="danger"/>
+                title={pageInfo.navTitle}
+                description={pageInfo.navDescription}
+                bgStyle={pageInfo.navBg}/>
 
             <ContentArea
-                title="Get In Touch"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
-                    repellendus at.">
+                title={pageInfo.pageTitle}
+                description={pageInfo.pageDescription}>
                 <form>
                     <ContactFormInput icon={faUser} placeHolder="Name"/>
                     <ContactFormInput icon={faEnvelope} placeHolder="Email"/>

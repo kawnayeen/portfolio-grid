@@ -6,18 +6,18 @@ import {useSelector} from 'react-redux';
 
 const Resume = () => {
     const experiences = useSelector(state => state.experiences);
+    const pageInfo = useSelector(state => state.resumePageInfo);
     const jobExperiences = experiences.map(exp => <JobExperience experience={exp}/>);
 
     return (
         <div id="resume" className="collapse show">
             <Legend
-                title="My Resume"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
-                bgStyle="success"/>
+                title={pageInfo.navTitle}
+                description={pageInfo.navDescription}
+                bgStyle={pageInfo.navBg}/>
             <ContentArea
-                title="Where Have I worked"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
-                    repellendus at.">
+                title={pageInfo.pageTitle}
+                description={pageInfo.pageDescription}>
                 <div className="card-deck">
                     {jobExperiences}
                 </div>
