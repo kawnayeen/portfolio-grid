@@ -5,8 +5,8 @@ import ContentArea from "../../common/content";
 import {useSelector} from 'react-redux';
 
 const Work = () => {
-
     const projects = useSelector(state => state.projects);
+    const pageInfo = useSelector(state => state.workPageInfo);
 
     const getProjectInfos = () => {
         let segment = [];
@@ -19,14 +19,12 @@ const Work = () => {
     return (
         <div id="work" className="collapse show">
             <Legend
-                title="My Portfolio"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!"
-                bgStyle="warning"/>
+                title={pageInfo.navTitle}
+                description={pageInfo.navDescription}
+                bgStyle={pageInfo.navBg}/>
             <ContentArea
-                title="What Have I Built?"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis
-                    repellendus at."
-            >
+                title={pageInfo.pageTitle}
+                description={pageInfo.pageDescription}>
                 {getProjectInfos()}
             </ContentArea>
         </div>
