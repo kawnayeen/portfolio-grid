@@ -1,8 +1,7 @@
 import React from 'react';
 import ProjectInfoGroup from "./project.info.group";
-import Legend from "../../common/legend";
-import ContentArea from "../../common/content";
 import {useSelector} from 'react-redux';
+import Page from "../../common/page";
 
 const Work = () => {
     const projects = useSelector(state => state.projects);
@@ -17,17 +16,9 @@ const Work = () => {
     };
 
     return (
-        <div id="work" className="collapse show">
-            <Legend
-                title={pageInfo.navTitle}
-                description={pageInfo.navDescription}
-                bgStyle={pageInfo.navBg}/>
-            <ContentArea
-                title={pageInfo.pageTitle}
-                description={pageInfo.pageDescription}>
-                {getProjectInfos()}
-            </ContentArea>
-        </div>
+        <Page id="work" pageInfo={pageInfo}>
+            {getProjectInfos()}
+        </Page>
     );
 };
 
