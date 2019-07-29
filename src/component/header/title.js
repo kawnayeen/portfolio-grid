@@ -1,9 +1,11 @@
 import React from 'react';
+import {useSelector} from "react-redux";
 
 const Title = () => {
+    const title = useSelector(state => state.title);
     return (
         <div className="p-4 bg-dark">
-            Experienced Full Stack Web Developer
+            {title}
         </div>
     );
 };

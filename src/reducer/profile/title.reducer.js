@@ -1,0 +1,1 @@
+export default () => 'Experienced Full Stack Developer';
