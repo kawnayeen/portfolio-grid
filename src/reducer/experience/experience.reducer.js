@@ -2,27 +2,27 @@ import Experience from "../../model/experience";
 
 export default () => [
     new Experience(
-        'Devmasters',
-        '(555) 555-5555',
+        'Cefalo AS',
+        '+88 02 9131954',
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, neque!',
-        'Full Stack Developer',
-        2015,
+        'Senior Software Engineer',
+        2019,
+        'present'
+    ),
+    new Experience(
+        'Cefalo AS',
+        '+88 02 9131954',
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, neque!',
+        'Software Engineer',
+        2017,
+        2019
+    ),
+    new Experience(
+        'Pechas Game Studios',
+        '+88 02 9893151',
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, neque!',
+        'Lead Developer',
+        2014,
         2017
-    ),
-    new Experience(
-        'Websites Pro',
-        '(444) 444-4444',
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, neque!',
-        'Front End Developer',
-        2013,
-        2015
-    ),
-    new Experience(
-        '123 Designs',
-        '(333) 333-3343',
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, neque!',
-        'Designer',
-        2010,
-        2013
     )
 ];
