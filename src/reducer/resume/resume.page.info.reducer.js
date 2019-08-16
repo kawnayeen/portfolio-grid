@@ -2,8 +2,8 @@ import PageInfo from "../../model/page.info";
 
 export default () => new PageInfo(
     "My Resume",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!",
+    "6+ years of IT experience in development and implementation in client/server and web based application as well as mobile apps and games",
     "success",
     "Where Have I worked",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis epellendus at."
+    "Have worked at local gaming startup, offshore logistic startup and MNC"
 );
