@@ -13,8 +13,10 @@ const Contact = () => {
                 <ContactFormInput icon={faUser} placeHolder="Name"/>
                 <ContactFormInput icon={faEnvelope} placeHolder="Email"/>
                 <ContactFormTextArea icon={faPencilAlt} placeHolder="Message"/>
-                <input type="submit" className="btn bg-danger btn-block btn-lg" value="Submit"
-                       style={{color: 'white'}}/>
+                <a href={"mailto:kamarul@questtag.com"} target="_top">
+                    <input type="submit" className="btn bg-danger btn-block btn-lg" value="Submit"
+                           style={{color: 'white'}}/>
+                </a>
             </form>
         </Page>
     );

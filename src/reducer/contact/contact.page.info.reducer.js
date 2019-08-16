@@ -2,8 +2,8 @@ import PageInfo from "../../model/page.info";
 
 export default () => new PageInfo(
     "Contact",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, blanditiis!",
+    "Twitter, LinkedIn, Email - whatever you prefer",
     "danger",
     "Get In Touch",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, nobis cum quidem perferendis epellendus at."
+    "Easiest way is to shoot an email. will try to reply ASAP"
 );
