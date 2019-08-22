@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectInfoGroup from "./project.info.group";
 import {useSelector} from 'react-redux';
 import Page from "../../common/page";
+import ProjectDetails from "./project.details";
 
 const Work = () => {
     const projects = useSelector(state => state.projects);
@@ -18,6 +19,7 @@ const Work = () => {
     return (
         <Page id="work" pageInfo={pageInfo}>
             {getProjectInfos()}
+            <ProjectDetails/>
         </Page>
     );
 };
