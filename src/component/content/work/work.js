@@ -31,7 +31,7 @@ const Work = () => {
     return (
         <Page id="work" pageInfo={pageInfo}>
             {getProjectInfos()}
-            {showDetails && <ProjectDetails onClose={() => closeDetails()}/>}
+            {showDetails && <ProjectDetails project={project} onClose={() => closeDetails()}/>}
         </Page>
     );
 };
