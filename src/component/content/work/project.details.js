@@ -6,13 +6,13 @@ import ModalBody from "reactstrap/es/ModalBody";
 import ModalFooter from "reactstrap/es/ModalFooter";
 import Button from "reactstrap/es/Button";
 
-const ProjectDetails = () => {
+const ProjectDetails = ({onClose}) => {
     return ReactDOM.createPortal(
         <Modal isOpen={true}>
             <ModalHeader>Modal Title</ModalHeader>
             <ModalBody>Hello body</ModalBody>
             <ModalFooter>
-                <Button color="primary">Do Something</Button>
+                <Button color="primary" onClick={() => onClose()}>Close</Button>
             </ModalFooter>
         </Modal>,
         document.getElementById('modal')
